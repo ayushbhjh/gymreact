@@ -1,0 +1,54 @@
+.div-container{
+  background-color: black;
+  color: whitesmoke;
+  height: 100vh;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+}
+
+.home img {
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 20%;
+  margin-top: 180px;
+  background: black;
+  margin-left: -144px; /* Adjusted margin */
+  margin-right: 30px; /* Added margin */
+}
+
+.home .hometext {
+  margin-top: 200px;
+  margin-left: 44px;
+}
+
+.hometext h1 {
+  font-size: 65px;
+}
+
+.hometext h3 {
+  margin-top: 22px;
+  font-size: 22px;
+}
+
+.hometext p {
+  margin-top: 22px;
+  
+}
+
+.hometext button {
+  margin-top: 22px;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  background-color: green;
+  color: white;
+}
+
+.hometext button:hover {
+  color: aqua;
+  border-bottom: 3px solid red;
+  background: transparent;
+}

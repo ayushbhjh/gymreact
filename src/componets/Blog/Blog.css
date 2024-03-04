@@ -1,0 +1,31 @@
+.blog-container{
+  background-color: black;
+  height: 100vh;
+}
+.ourblog{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding-bottom: 40px;
+}
+ .blogcard{
+  width: 300px;
+  height: 350px;
+  position: relative;
+  bottom: 120px;
+  margin-left: 40px;
+  background-color: grey;
+  padding: 11px;
+}
+.blogcard:hover{
+  width: 350px;
+  transition: 0.9s;
+  border: 5px solid palevioletred;
+}
+.blogcard p{
+  margin-top: 12px;
+  font-size: 10px;
+}
+.blogcard img{
+  width: 100%;
+}

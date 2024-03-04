@@ -1,0 +1,16 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+  padding: 22px;
+  box-shadow: 6px 2px 6px 2px rgb(246, 103, 103);
+}
+.footer .footertext{
+  margin-inline: 73px;
+}
+
+.footertext p{
+  margin-top: 11px;
+  color: silver;
+}
+

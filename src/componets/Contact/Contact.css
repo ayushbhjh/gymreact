@@ -1,0 +1,88 @@
+.contact-container{
+  background-color: black;
+  /* height: full; */
+  z-index: 200;
+}
+.contactpage{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 80vh;
+  background-color: black;
+}
+
+.contactext{
+  margin-left: 25px; 
+  color: green;
+  margin-top: 30px;
+  position: relative;
+  bottom: 100px;
+}
+.head{
+  text-align: center;
+  padding: 95px;
+}
+.head h1{
+  position: relative;
+  bottom: 30px;
+  font-size: 50px;
+  color: wheat;
+}
+.head h2{
+  color: wheat;
+  position: relative;
+  bottom: 50px;
+}
+.head span{
+  color: rgb(30, 240, 30);
+}
+.contactpage img{
+  width: 45%;
+  font-size: 22px;
+  height: 200px;
+  width: 350px;
+  margin-left: 15%;
+  position: relative;
+  bottom: 100px;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.contactus{
+  text-align: center;
+
+}
+.contactus input{
+  width: 350px;
+  padding: 8px;
+  height: 33px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  margin-top: 21px;
+  position: relative;
+  bottom: 400px;
+}
+.contactus button{
+  width: 365px;
+ height: 45px;
+color: white;
+border: none;
+font-size: 22px;
+background-color: rgb(9, 215, 9);
+border-radius: 2px;
+margin-top: 22px;
+position: relative;
+bottom: 420px;
+}
+.contactus button:hover{
+  border: 2px solid white;
+  background-color: transparent;
+  color: rgb(6, 216, 6);
+}
+.cont{
+  position: relative;
+  bottom: 500px;
+}
+
